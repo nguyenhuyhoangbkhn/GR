@@ -1,0 +1,13 @@
+buoc 1 tao module
+app\modules\admin\Module
+=> gen ra module
+confing trong web.php
+	'modules' => [
+        'admin' => [
+            'class' => 'app\modules\admin\Module',
+        ],
+    ],
+
+Gen ra controller va view 
+luu y cai views thi dung 
+	c:/xampp/htdocs/GR/modules/admin/views/post
